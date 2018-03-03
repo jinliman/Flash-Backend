@@ -296,7 +296,7 @@ def setAlertsOverTime(timeframe, numberTpots, numberHoneypots, numberAlerts, cin
     honeypot_count=numberHoneypots
     tpot_count=numberTpots
     domain=cindex
-    # print("timeframe: " + str(span) + "min | number of alerts: " +  str(alert_count)+ " | determined number of T-Pot installations: " + str(tpot_count) + " | number of honeypot daemons: " + str(honeypot_count) + " | community: " + str(cindex))
+    print("timeframe: " + str(span) + "min | number of alerts: " +  str(alert_count)+ " | determined number of T-Pot installations: " + str(tpot_count) + " | number of honeypot daemons: " + str(honeypot_count) + " | community: " + str(cindex))
 
     # TODO: Store data in DB
 
